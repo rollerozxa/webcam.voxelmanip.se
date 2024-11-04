@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Webcam tester</title>
+
+	<link rel="stylesheet" href="css/style.css">
+
+	<meta property="og:title" content="Webcam tester">
+	<meta name="description" content="Test your webcam as the browser sees it to see that your webcam is functional and can send a video signal, as well as to see that you look the best for that online meeting.">
+	<meta property="og:description" content="Test your webcam as the browser sees it to see that your webcam is functional and can send a video signal, as well as to see that you look the best for that online meeting.">
+	<meta property="og:site_name" content="Webcam tester">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://webcam.voxelmanip.se">
+	<link rel="canonical" href="https://webcam.voxelmanip.se">
+
+	<link rel="icon" type="image/svg+xml" href="favicon.svg">
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="manifest" href="site.webmanifest">
+</head>
+<body>
+	<header class="top">
+		<h1>Webcam tester</h1>
+
+		<p>Test your webcam as the browser sees it to see that your webcam is functional and can send a video signal, as well as to see that you look the best for that online meeting.</p>
+
+		<p>All video data is stored purely client-side and does not leave your browser.</p>
+	</header>
+
+	<main>
+		<div id="webcam-preparation">
+			<button id="activate-webcam">Activate webcam</button>
+
+			<p id="status" class="status">Initializing...</p>
+		</div>
+
+		<video id="webcam" autoplay playsinline></video>
+	</main>
+
+	<footer>
+		Made by <a href="https://voxelmanip.se">ROllerozxa</a> - <a href="https://github.com/rollerozxa/webcam.voxelmanip.se">Source code</a>
+	</footer>
+
+	<script src="js/script.js"></script>
+</body>
+</html>
